@@ -166,8 +166,12 @@ public class Jogo {
 			else System.out.println("\n Lugar Errado");
 		}
 
-		else{
+		else if(opcao==2){
 			this.lugar = InformaLugar();
+			Verifica();
+		}
+		else{
+			System.out.println("Opcao invalida");
 			Verifica();
 		}
 	}
