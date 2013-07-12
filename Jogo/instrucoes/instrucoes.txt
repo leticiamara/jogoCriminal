@@ -1,0 +1,13 @@
+Esse jogo é baseado no "Detetive"
+
+Um crime aconteceu e você tem que desvendar e prender o suspeito, mas corra pois o assassino agora está atrás de você.
+Possíveis suspeitos:
+"Capitao Mostarda","Senhor Marinho","Dona Branca","Senhorita Rosa","Dona Violeta","Professor Black"
+Possíveis armas:
+"cano","faca","corda","castical","revolver","bazuca"
+Possíveis Locais do Crime:
+"Sala de Jogos","Sala de Estar","Sala de Jantar","Biblioteca","Escritorio","Hall","Cozinha","Salao de Festas","Sala de Musica"
+
+Como jogar:
+Você precisa dar palpites sobre o crime. Cada palpite é composto de uma arma, uma pessoa e um lugar(a sala onde você está - o jogo começa no hall). Se um ou mais componentes do palpite estiverem errados, o jogo avisa que um (e somente um deles aleatoriamente entre os errados) elemento está errado
+Assim, a cada rodada você pode dar palpites ou trocar de sala. O jogo acaba ou quando você acerta o palpite ou quando o assassino consegue capturar você (isso acontece em um tempo aleatório entre 10 e 15 minutos)
