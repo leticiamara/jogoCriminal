@@ -164,6 +164,23 @@ public class Jogo {
 				else System.out.println("\n Arma Errada");
 			}
 			else System.out.println("\n Lugar Errado");
+			
+			System.out.println("Deseja Jogar novamente? \n sim ou não");
+			BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));  
+			String linha = "";  
+
+			try {
+				linha = reader.readLine();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}  
+			if(linha.equals("sim")){
+				Verifica();
+			}else{
+				System.out.println("Até mais!!");
+			}
+			
 		}
 
 		else if(opcao==2){
